@@ -1,0 +1,11 @@
+C_v measure uses normalized pointwise mutual information (NPMI) and the cosine similarity
+
+C_p used one-preceding segmentation of the top words and the confirmation measure of Fitelson’s coherence
+
+C_uci uses the pointwise mutual information (PMI) of all word pairs of the given top words
+
+C_umass uses a one-preceding segmentation and a logarithmic conditional probability as confirmation measure
+
+C_npmi is an enhanced version of the C_uci coherence using the normalized pointwise mutual information (NPMI)
+
+C_a uses a pairwise comparison of the top words and normalized pointwise mutual information (NPMI) and the cosine similarity
